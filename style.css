@@ -1,0 +1,199 @@
+body{
+    font-family:  'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size:larger;
+    background-image:radial-gradient(circle,rgb(0, 102, 204),rgba(161, 247, 247, 0.655));
+    background-size: cover;
+    text-transform: capitalize;
+}
+ul{
+    box-shadow: 0px 4px 9px rgba(0, 102, 204, 0.7);
+    background-color: #007acc;
+    overflow: hidden; 
+    display: flex;
+    justify-content: space-between; 
+    border-radius: 10px;
+  }
+  ul li {
+    transition: transform 0.3s , background-color 0.3s;
+    padding-top: 2px;
+    list-style: none;
+    display: flex;
+    transition: background-color 0.3s , transform 0.3s;
+  }
+  ul li:hover{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    transform:translateY(-5px);
+
+  }
+  ul li a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+
+  }
+  ul li a:hover{
+    color: rgb(0, 51, 169);
+    height: 20px;
+    border-radius: 20px;
+  }
+
+
+.upper{
+    text-align: center;
+}
+#form{
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.518);
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom:10px;
+    border-radius:50px;
+}
+.form{
+    padding-top: 20px;
+}
+input{
+  box-shadow: 2px 3px 10px rgba(255, 255, 255, 0.8);
+    background-color: rgba(192, 197, 197, 0.374);
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 50px;
+}
+
+input[type="submit"]{
+    background-color: #007acc;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s , background-color 0.3s;
+}
+input[type="submit"]:hover{
+    background-color:rgb(0, 102, 204);
+    color: rgb(255, 255, 255);
+    transform: scale(0.9);
+}
+footer{
+    border-radius: 10px;
+    background-color: rgba(170, 174, 174, 0.5);
+    padding:30px;
+    margin: 0px;
+}
+.link{
+  margin-top: -15px;
+}
+.link a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.about1{
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.637);
+  border: none;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom:10px;
+  border-radius:50px;
+}
+table{
+  width: 100%;
+  margin: auto;
+  border: none;
+  border-radius:none;
+}
+table td img{
+  justify-content: center;
+  width:200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s , background-color 0.3s;
+}
+table td img:hover{
+  justify-content: center;
+  width:200px;
+  height: 200px;
+  padding: 0px;
+  border-radius: 10px;
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 5px white;
+
+}
+table td{
+  box-shadow: 0px 4px 9px rgba(255, 255, 255, 0.8);
+  transform: scale(0.9);
+  justify-items: center;
+  background-color: rgba(85, 98, 199, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s , background-color 0.3s;
+
+}
+table td:hover{
+  transform: translateY(2px);
+  justify-items: center;
+  background-color: rgb(95, 142, 251);
+  padding: 20px;
+  border-radius: 10px;
+}
+.table1 td p{
+  cursor: default;
+  color: white;
+  text-shadow: 1px 2px 3px rgb(0, 168, 215);
+  padding: 2px;
+  border-radius: 4px;
+}
+
+button{
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.pp{
+  background: #28a745;
+  transition: background-color 0.3s , transform 0.3s;
+}
+.ppp{
+  background: #007acc;
+  transition: background-color 0.3s , transform 0.3s;
+}
+.pp:hover{
+  background-color: rgb(115, 234, 85);
+  transform: scale(0.9);
+}
+.ppp:hover{
+  background-color: rgb(85, 92, 234);
+  transform: scale(0.9);
+}
+.upper2{
+  box-shadow: 0px 4px 9px rgba(0, 102, 204, 0.7);
+  background-color: #007acc;
+  width: 100%;
+  color: white;
+  border-radius: 20px;
+}
+textarea{
+  width: 80%;
+  height: 90px;
+  background-color: #ffffff5a;
+  color: black;
+  border:none;
+  border-radius: 13px;
+  padding: 10px;
+}
+.contact{
+  color: white;
+  text-shadow: 0px 0px 10px rgb(0, 255, 242);
+}
+marquee{
+  box-shadow: 0px 4px 9px rgba(0, 102, 204, 0.7);
+
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 20px;
+}
+
